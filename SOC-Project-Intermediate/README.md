@@ -1,13 +1,5 @@
 # AWS SOC Lab with Wazuh, Suricata, Sysmon and Auditd
 
-![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws)
-![Wazuh](https://img.shields.io/badge/Wazuh-SIEM-005571)
-![Suricata](https://img.shields.io/badge/Suricata-NIDS-red)
-![Windows](https://img.shields.io/badge/Windows-Sysmon-0078D6?logo=windows)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-Auditd-E95420?logo=ubuntu)
-![Level](https://img.shields.io/badge/Level-Intermediate-yellow)
-![Purpose](https://img.shields.io/badge/Purpose-Defensive%20Security-green)
-
 > A manually deployed AWS Security Operations Center lab for endpoint monitoring, network intrusion detection, centralized logging, alert investigation, and SOC analyst practice.
 
 ## Project overview
