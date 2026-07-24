@@ -1,0 +1,1 @@
+This project demonstrates an intermediate AWS SOC lab using Wazuh, Suricata, Sysmon, and Auditd for real-time log monitoring, threat detection, alert triage, incident investigation, and defensive security practice.
