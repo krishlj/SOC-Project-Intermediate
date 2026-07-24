@@ -1,0 +1,6 @@
+## Safe SOC lab Auditd rules
+
+-w /opt/soc-lab-monitored/ -p wa -k soc_lab_fim
+-w /etc/passwd -p wa -k identity_changes
+-w /etc/group -p wa -k identity_changes
+-a always,exit -F arch=b64 -S execve -F euid=0 -k root_commands

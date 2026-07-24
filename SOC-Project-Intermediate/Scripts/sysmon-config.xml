@@ -1,0 +1,15 @@
+<Sysmon schemaversion="4.90">
+  <HashAlgorithms>SHA256</HashAlgorithms>
+  <CheckRevocation />
+  <EventFiltering>
+    <ProcessCreate onmatch="include" />
+    <NetworkConnect onmatch="include" />
+    <FileCreate onmatch="include">
+      <TargetFilename condition="begin with">C:\SOC-Lab\</TargetFilename>
+    </FileCreate>
+    <RegistryEvent onmatch="include">
+      <TargetObject condition="contains">SOC-Lab</TargetObject>
+    </RegistryEvent>
+    <ProcessTerminate onmatch="exclude" />
+  </EventFiltering>
+</Sysmon>

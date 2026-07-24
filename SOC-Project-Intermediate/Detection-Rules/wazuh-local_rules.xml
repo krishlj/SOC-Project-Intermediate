@@ -1,0 +1,11 @@
+<group name="local,soc_lab,">
+
+  <rule id="100100" level="8">
+    <decoded_as>json</decoded_as>
+    <field name="event_type">alert</field>
+    <field name="alert.signature">SOC LAB benign HTTP test</field>
+    <description>Suricata detected the authorized SOC lab HTTP marker</description>
+    <group>suricata,ids,network_detection,soc_lab_test,</group>
+  </rule>
+
+</group>
